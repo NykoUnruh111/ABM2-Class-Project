@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/setCourseStartAlarm"
+        android:title="Set Course Start Alarm" />
+    <item
+        android:id="@+id/setEndCourseAlarm"
+        android:title="Set End Course Alarm" />
+    <item
+        android:id="@+id/menuDetailsStartCourse"
+        android:title="Start Course" />
+    <item
+        android:id="@+id/menuDetailsDropCourse"
+        android:title="Drop Course" />
+    <item
+        android:id="@+id/menuDetailsEditCourse"
+        android:title="Edit Course" />
+    <item
+        android:id="@+id/menuDetailsDeleteCourse"
+        android:title="Delete Course" />
+</menu>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuStartTerm"
+        android:title="Start Term" />
+    <item
+        android:id="@+id/setStartTermAlarm"
+        android:title="Set Start Term Alarm" />
+    <item
+        android:id="@+id/setEndTermAlarm"
+        android:title="Set End Term Alarm" />
+    <item
+        android:id="@+id/menuDetailsEditTerm"
+        android:title="Edit Term" />
+    <item
+        android:id="@+id/menuDetailsDeleteTerm"
+        android:title="Delete Term" />
+</menu>

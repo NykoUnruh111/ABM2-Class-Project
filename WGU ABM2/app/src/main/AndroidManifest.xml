@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nathanielunruh.wguabm2">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WGUABM2">
+
+        <activity
+            android:name=".UpdateAssessmentActivity"
+            android:label="@string/title_activity_update_assessment"
+            android:parentActivityName=".AllAssessmentsActivity">
+
+        </activity>
+
+        <activity
+            android:name=".UpdateCourseActivity"
+            android:label="@string/title_activity_update_course"
+            android:parentActivityName=".AllCoursesActivity">
+
+        </activity>
+
+        <activity
+            android:name=".UpdateTermActivity"
+            android:label="@string/title_activity_update_term"
+            android:parentActivityName=".AllTermsActivity">
+
+        </activity>
+
+        <activity
+            android:name=".NoteDetailsActivity"
+            android:label="@string/title_activity_note_details"
+            android:parentActivityName=".AllNotesActivity">
+
+        </activity>
+
+        <activity
+            android:name=".AddNoteActivity"
+            android:label="@string/title_activity_add_note"
+            android:parentActivityName=".AllNotesActivity">
+
+        </activity>
+
+        <activity
+            android:name=".AllNotesActivity"
+            android:label="@string/title_activity_all_notes"
+            android:parentActivityName=".AllCoursesActivity">
+
+        </activity>
+
+        <activity
+            android:name=".AssessmentDetailsActivity"
+            android:label="@string/title_activity_assessment_details"
+            android:parentActivityName=".AllAssessmentsActivity">
+
+        </activity>
+
+        <activity
+            android:name=".AddAssessmentActivity"
+            android:label="@string/title_activity_add_assessment"
+            android:parentActivityName=".AllAssessmentsActivity">
+
+        </activity>
+
+        <activity
+            android:name=".AllAssessmentsActivity"
+            android:label="@string/title_activity_all_assessments"
+            android:parentActivityName=".AllCoursesActivity">
+
+        </activity>
+
+        <activity
+            android:name=".CourseDetailsActivity"
+            android:label="@string/title_activity_course_details"
+            android:parentActivityName=".AllCoursesActivity">
+
+        </activity>
+
+        <activity
+            android:name=".AddCourseActivity"
+            android:label="@string/title_activity_add_course"
+            android:parentActivityName=".AllCoursesActivity">
+
+        </activity>
+
+        <activity
+            android:name=".AllCoursesActivity"
+            android:label="@string/title_activity_all_courses"
+            android:parentActivityName=".AllTermsActivity">
+
+        </activity>
+
+        <activity
+            android:name=".TermDetailsActivity"
+            android:label="@string/title_activity_term_details"
+            android:parentActivityName=".AllTermsActivity">
+
+        </activity>
+
+        <activity
+            android:name=".AddTermActivity"
+            android:label="@string/title_activity_add_term"
+            android:parentActivityName=".AllTermsActivity">
+
+        </activity>
+
+        <activity
+            android:name=".AllTermsActivity"
+            android:label="@string/title_activity_all_terms"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+        <activity
+            android:name=".CurrentTermActivity"
+            android:label="@string/title_activity_current_term"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:process=":remote" android:name=".NotificationPublisher" />
+    </application>
+
+</manifest>

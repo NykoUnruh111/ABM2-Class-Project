@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">WGU ABM2</string>
+    <string name="title_activity_current_term">Current Term</string>
+    <string name="title_activity_all_terms">All Terms List</string>
+    <string name="title_activity_add_term">Add New Term</string>
+    <string name="title_activity_update_term">Update Term</string>
+    <string name="title_activity_term_details">View Term</string>
+    <string name="title_activity_all_courses">All Course List</string>
+    <string name="title_activity_add_course">Add New Course</string>
+    <string name="title_activity_update_course">Update Course</string>
+    <string name="title_activity_course_details">View Course</string>
+    <string name="title_activity_all_assessments">All Assessment List</string>
+    <string name="title_activity_add_assessment">Add New Assessment</string>
+    <string name="title_activity_update_assessment">Update Assessment</string>
+    <string name="title_activity_assessment_details">View Assessment</string>
+    <string name="title_activity_all_notes">All Note List</string>
+    <string name="title_activity_add_note">Add New Note</string>
+    <string name="title_activity_note_details">View Note</string>
+</resources>

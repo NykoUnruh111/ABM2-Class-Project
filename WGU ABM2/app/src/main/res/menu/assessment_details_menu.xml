@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/setAssessmentStartAlarm"
+        android:title="Set Assessment Start Alarm" />
+    <item
+        android:id="@+id/setAssessmentEndAlarm"
+        android:title="Set Assessment End Alarm" />
+    <item
+        android:id="@+id/menuDetailsEditAssessment"
+        android:title="Edit Assessment" />
+    <item
+        android:id="@+id/menuDetailsDeleteAssessment"
+        android:title="Delete Assessment" />
+</menu>
